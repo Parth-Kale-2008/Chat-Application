@@ -1,0 +1,151 @@
+h2{
+    text-align:center;
+    color:rgba(47, 95, 123, 0.793);
+}
+
+input{
+    text-align:center;
+    color: red;
+    border-radius:7px;
+    width:500px;
+    height:100px;
+    margin-top:50px;
+}
+
+form{
+    text-align: center;
+    border-radius:7px;
+}
+
+button:hover{
+    background-color: rgba(21, 35, 110, 0.533);
+    color: white;
+}
+
+button{
+    border-radius: 7px;
+    width: 100px;
+    height:50px;
+}
+
+.output-container {
+    width: 1250px;
+    height: 650px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+body {
+    text-align: center;
+}
+
+#messages {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: left; 
+}
+
+#messages li {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #180b244d; 
+    border-radius: 5px;
+}
+
+div{
+    border-radius: 80px;
+
+}
+
+body {
+    background-color: RGBA(245, 245, 220, 1);
+    text-align: center;
+    color: gold;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(59, 51, 7);
+    animation: glowText 1.5s infinite alternate;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid magenta;
+    padding: 5px;
+    font-size: 16px;
+    color:black;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.output-container {
+    width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: black;
+    border-radius: 15px;
+    animation: glowBox 2s infinite alternate;
+}
+
+@keyframes glowBox {
+    0% {
+        box-shadow:
+            0 0 10px gold,
+            0 0 20px red;
+    }
+    50% {
+        box-shadow:
+            0 0 20px red,
+            0 0 40px gold;
+    }
+    100% {
+        box-shadow:
+            0 0 10px gold,
+            0 0 25px red;
+    }
+}
+
+@keyframes glowText {
+    from {
+        text-shadow:
+            0 0 5px gold,
+            0 0 10px red;
+    }
+    to {
+        text-shadow:
+            0 0 15px red,
+            0 0 25px gold;
+    }
+}
+
+#messages li {
+    list-style: none;
+    padding: 8px;
+    margin: 5px 0;
+    background: linear-gradient(45deg, red, gold);
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
